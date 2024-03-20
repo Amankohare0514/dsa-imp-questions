@@ -6,46 +6,34 @@ const QuestionsCards = () => {
         <>
             {/* first template */}
             <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-                <Link href='/topten'
+                <Link href='/array'
                     className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className={`mb-3 text-2xl font-semibold`}>
-                        Top 10{" "}
+                       10 Array {" "}
                         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                             -&gt;
                         </span>
                     </h2>
                     <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                        Here's a list of 10 essential DSA questions that every developer should be familiar with:
+                        Here's a list of 10 Array essential DSA questions that every developer should be familiar with:
                     </p>
                 </Link>
-                <Link href='/topten'
+                <Link href='/string'
                     className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className={`mb-3 text-2xl font-semibold`}>
-                        Top 50{" "}
+                        10 String {" "}
                         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                             -&gt;
                         </span>
                     </h2>
                     <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                        Here's a list of 10 essential DSA questions that every developer should be familiar with
+                        Here's a list of 10 String essential DSA questions that every developer should be familiar with
                     </p>
                 </Link>
-                <Link href='/topten'
+                <Link href='/linkedlist'
                     className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className={`mb-3 text-2xl font-semibold`}>
-                        Top 100{" "}
-                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                            -&gt;
-                        </span>
-                    </h2>
-                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                        Here's a list of 10 essential DSA questions that every developer should be familiar with
-                    </p>
-                </Link>
-                <Link href='/topten'
-                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                    <h2 className={`mb-3 text-2xl font-semibold`}>
-                        Top 200{" "}
+                        10 LinkedList {" "}
                         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                             -&gt;
                         </span>
@@ -54,11 +42,116 @@ const QuestionsCards = () => {
                         Here's a list of 10 essential DSA questions that every developer should be familiar with
                     </p>
                 </Link>
-                
-            </div>
-            <Pinned/>
+                <Link href='/stackqueues'
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        10 Stacks and Queues{" "}
+                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                            -&gt;
+                        </span>
+                    </h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                        Here's a list of 10 essential DSA questions that every developer should be familiar with
+                    </p>
+                </Link>
+                <Link href='/sortingsearching'
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        10 Sorting and Searching{" "}
+                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                            -&gt;
+                        </span>
+                    </h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                        Here's a list of 10 essential DSA questions that every developer should be familiar with
+                    </p>
+                </Link>
+                <Link href='/trees'
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        10 Trees{" "}
+                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                            -&gt;
+                        </span>
+                    </h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                        Here's a list of 10 essential DSA questions that every developer should be familiar with
+                    </p>
+                </Link>
+                <Link href='/graphs'
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        10 Graphs{" "}
+                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                            -&gt;
+                        </span>
+                    </h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                        Here's a list of 10 essential DSA questions that every developer should be familiar with
+                    </p>
+                </Link>
+                <Link href='/heap'
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        10 Heap{" "}
+                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                            -&gt;
+                        </span>
+                    </h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                        Here's a list of 10 essential DSA questions that every developer should be familiar with
+                    </p>
+                </Link>
+                <Link href='/dynamicProgramming'
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        10 dynamic Programming{" "}
+                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                            -&gt;
+                        </span>
+                    </h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                        Here's a list of 10 essential DSA questions that every developer should be familiar with
+                    </p>
+                </Link>
+                <Link href='/greedyalgo'
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        10 Greedy Algorithms{" "}
+                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                            -&gt;
+                        </span>
+                    </h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                        Here's a list of 10 essential DSA questions that every developer should be familiar with
+                    </p>
+                </Link>
+                <Link href='/backtracking'
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        10 Backtracking{" "}
+                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                            -&gt;
+                        </span>
+                    </h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                        Here's a list of 10 essential DSA questions that every developer should be familiar with
+                    </p>
+                </Link>
+                <Link href='/segmentTree'
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className={`mb-3 text-2xl font-semibold`}>
+                        10 Segment Tree{" "}
+                        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                            -&gt;
+                        </span>
+                    </h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                        Here's a list of 10 essential DSA questions that every developer should be familiar with
+                    </p>
+                </Link>
 
-          
+            </div>          
         </>
     )
 }
