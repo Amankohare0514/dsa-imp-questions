@@ -7,7 +7,7 @@ import gradientLightBackground from "../public/light.jpg";
 
 const Pinned = () => {
   return (
-    <div className="relative mb-12 overflow-hidden rounded-lg border px-4 py-6">
+    <div className="relative mt-8 mb-12 w-[1100px]  md:w-[400px] overflow-hidden rounded-lg border px-4 py-6">
       <Image
         src={gradientLightBackground}
         alt="Gradient light background"
@@ -23,7 +23,7 @@ const Pinned = () => {
         Pinned
       </div>
       <div>
-      Mastering around 200 well-selected DSA problems provides a strong foundation
+      Mastering these questions are well-selected DSA problems provides a strong foundation
        for efficient and scalable code development.
       </div>
     </div>
